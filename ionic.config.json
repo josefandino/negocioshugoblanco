@@ -1,0 +1,7 @@
+{
+  "name": "negocioshugoblanco",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
