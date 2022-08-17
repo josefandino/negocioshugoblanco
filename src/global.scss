@@ -24,3 +24,20 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+*{margin:0;padding:0;box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+:root{
+  white: #FFFFFF;
+  white2: #F5F5F7;
+  dorado: #D8AB3A;
+  cafe: #74570e;
+  black: #262626;
+  black2: #1D1D1D;
+  grey: #818A91;
+  rosa: #CC3366;
+}
+body{
+  font-family: 'Lato', sans-serif !important;
+  color: #D8AB3A;
+  background: #262626;
+}
