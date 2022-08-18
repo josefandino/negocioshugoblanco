@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideosComponent implements OnInit {
 
+  video = '../../../assets/video/video.mp4';
+
   constructor() { }
 
   ngOnInit() {}

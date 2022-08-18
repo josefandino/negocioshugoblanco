@@ -1,0 +1,60 @@
+.porfolio{width:100%;height:auto;
+  position:relative;z-index:0;
+  padding: 3rem 1rem;
+  background-image:url(../../../assets/img/building.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100 auto;
+  background:cover;
+  display:flex;align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  h3{text-align: center;
+    font-size: 4rem;
+    color:#D8AB3A;
+    text-transform: uppercase;
+  }
+
+}
+.chilPorfolio{width:100%;height:auto;
+  max-width: 920px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.boxVideo{width:100%;height:auto;
+  border:1px solid magenta;
+  position: relative;
+  padding: 1rem .1rem;
+  overflow: hidden;;
+  border:1px solid #D8AB3A;
+  border-radius: .5rem;
+  box-shadow:0 0 8px 3px rgba(208, 245, 2, 0.5);
+  h4{font-size: 2rem;
+    color: #D8AB3A;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+video{width:100%;height:auto;
+  background: transparent;
+  border-radius: .6rem;
+}
+@media only screen and (max-width:786px){
+  .chilPorfolio{display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .boxVideo{margin-top: 2rem;}
+}
+
+@media only screen and (max-width:600px){
+  .porfolio{
+    h3{font-size: 2rem}
+  }
+}
+
+
+

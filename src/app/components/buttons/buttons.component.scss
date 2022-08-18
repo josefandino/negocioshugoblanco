@@ -1,19 +1,24 @@
 .buttons{width:100%;height:auto;
+  margin: 0 auto;
   background: #262626;
   padding: 4rem 1rem;
   position: relative;
-  top: -.3rem;
+  // top: -.3rem;
+  
+}
+.childButtons{width:100%;height:auto;
+  max-width: 920px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
-a{
-  font-size: 1.3rem;
+a{font-size: 1.3rem;
   text-decoration: none;
   text-align: center;
   border:1px solid #D8AB3A;
   border-radius: 1.5rem;
-  padding: .5rem 2rem;
+  padding: .5rem 1rem;
   box-shadow:0 0 8px 3px rgba(234, 238, 2, 0.5);
   cursor: pointer;
   transition:all .2s ease;
@@ -23,15 +28,16 @@ a{
   justify-content:center;
 }
 @media only screen and (max-width:786px){
-  .buttons{display: grid;
+  .childButtons{display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
   }
 }
 @media only screen and (max-width:450px){
-  .buttons{display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1rem;
+  .childButtons{display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
   }
+  a{margin-top: 2rem;}
 }
 

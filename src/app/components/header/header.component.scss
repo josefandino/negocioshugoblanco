@@ -1,11 +1,17 @@
 .header{width:100%;height:auto;
   background: #262626;
+  overflow: hidden;
   position: fixed;
   z-index: 99999;
   top: 0;left: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: .3rem 1rem;
+}
+.letf{width:100%;height:auto;
+  display: flex;
+  align-items: center;
 }
 .logo{width: 50px; height: 50px;
   display:flex;align-items:center;
@@ -17,3 +23,16 @@
 h3{color: #D8AB3A;
   margin-left: 1rem;
   font-family: 'Lato', sans-serif;;}
+
+.whatsapp{width:100%;height:auto;
+  display:flex;
+  justify-content:flex-end;
+  margin-right: 1rem;
+  a{width: 50px;height: 50px;
+    padding:.5rem;
+    img{width:100%;height:auto;}
+    transition:all .2s ease;;
+    &:hover{transform:scale(1.2) translateY(-3px);}
+    &:active{transform:scale(.60) translateY(3px);}
+  }
+  }
